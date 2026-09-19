@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Wallet base body inside 66dp safe zone (21 to 87) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,38 C28,34.7 30.7,32 34,32 L74,32 C77.3,32 80,34.7 80,38 L80,44 L32,44 C29.8,44 28,45.8 28,48 L28,38 Z" />
+    <!-- Wallet main pouch -->
+    <path
+        android:fillColor="#E0F2F1"
+        android:pathData="M28,44 L76,44 C78.2,44 80,45.8 80,48 L80,72 C80,75.3 77.3,78 74,78 L34,78 C30.7,78 28,75.3 28,72 L28,44 Z" />
+    <!-- Wallet flap with clasp -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,54 L78,54 C80.2,54 82,55.8 82,58 L82,66 C82,68.2 80.2,70 78,70 L60,70 C57.8,70 56,68.2 56,66 L56,58 C56,55.8 57.8,54 60,54 Z" />
+    <!-- Clasp button (gold accent) -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M70,62 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+    <!-- Coin icon with dollar/peso sign rising from wallet -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M54,26 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+    <path
+        android:fillColor="#004D40"
+        android:pathData="M53.5,21.5 L54.5,21.5 L54.5,22.5 C55.6,22.7 56.5,23.5 56.5,24.6 L55.3,24.6 C55.3,23.9 54.7,23.5 54,23.5 C53.3,23.5 52.8,23.9 52.8,24.4 C52.8,25 53.4,25.2 54.4,25.5 C55.7,25.9 56.7,26.4 56.7,27.6 C56.7,28.6 55.8,29.3 54.5,29.5 L54.5,30.5 L53.5,30.5 L53.5,29.5 C52.2,29.3 51.3,28.5 51.3,27.3 L52.5,27.3 C52.5,28.1 53.2,28.5 54,28.5 C54.8,28.5 55.4,28.1 55.4,27.5 C55.4,26.9 54.8,26.6 53.8,26.3 C52.5,25.9 51.5,25.4 51.5,24.3 C51.5,23.3 52.3,22.7 53.5,22.5 Z" />
+</vector>
+

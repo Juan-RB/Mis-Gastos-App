@@ -1,0 +1,6 @@
+{
+  "name": "Mis Gastos",
+  "description": "Aplicación 100% offline para control de gastos personales con presupuestos, categorías personalizables, gráficos y exportación CSV.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
