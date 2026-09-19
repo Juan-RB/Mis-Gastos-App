@@ -19,11 +19,18 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Configurar Gradle oficial
+      - name: Instalar Gradle 8.7
         uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '8.7'
 
       - name: Compilar APK Debug
-        run: gradle assembleDebug --stacktrace
+        run: |
+          # Buscar la carpeta donde residen los archivos de Gradle
+          BUILD_DIR=$(dirname $(find . -maxdepth 3 \( -name "settings.gradle" -o -name "settings.gradle.kts" -o -name "build.gradle" -o -name "build.gradle.kts" \) | head -n 1))
+          echo "Compilando en el directorio: $BUILD_DIR"
+          cd "$BUILD_DIR"
+          gradle assembleDebug --stacktrace
 
       - name: Subir instalador APK
         uses: actions/upload-artifact@v4
